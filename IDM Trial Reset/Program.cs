@@ -12,6 +12,7 @@ namespace IDM_Trial_Reset
         [STAThread]
         static void Main()
         {
+            //do something
             if (Environment.OSVersion.Version.Major >= 6)
                 SetProcessDPIAware();
             Application.EnableVisualStyles();
